@@ -14,7 +14,7 @@ package
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	
-	public class SimpleError extends Sprite
+	public class DraggingScreenElements extends Sprite
 	{
 		private var rec1:Sprite = new Sprite();
 		private var rec2:Sprite = new Sprite();
@@ -30,7 +30,7 @@ package
 		private var offsetY:Number;
 		private var draggedObject:DisplayObject;
 		
-		public function SimpleError()
+		public function DraggingScreenElements()
 		{  
 			rec1.graphics.lineStyle(1, 0x0000ff);
 			rec1.graphics.beginFill(0x00ff00, 1);
