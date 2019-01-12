@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<actionScriptProperties analytics="false" mainApplicationPath="Tetromino.as" projectUUID="5849a15f-5bde-434a-9176-0590e7c8ad1a" version="10">
+<actionScriptProperties analytics="false" mainApplicationPath="Tetris1.as" projectUUID="99fb9a48-eff3-4272-9e08-984f30c3878c" version="10">
   <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="false" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
     <compilerSourcePath/>
     <libraryPath defaultLinkType="0">
@@ -32,7 +32,7 @@
     <sourceAttachmentPath/>
   </compiler>
   <applications>
-    <application path="Tetromino.as"/>
+    <application path="Tetris1.as"/>
   </applications>
   <modules/>
   <buildCSSFiles/>

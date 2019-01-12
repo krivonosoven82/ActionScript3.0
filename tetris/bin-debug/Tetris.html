@@ -47,12 +47,12 @@
             params.allowscriptaccess = "sameDomain";
             params.allowfullscreen = "true";
             var attributes = {};
-            attributes.id = "Tetromino";
-            attributes.name = "Tetromino";
+            attributes.id = "Tetris";
+            attributes.name = "Tetris";
             attributes.align = "middle";
             swfobject.embedSWF(
-                "Tetromino.swf", "flashContent", 
-                "100%", "100%", 
+                "Tetris.swf", "flashContent", 
+                "480", "480", 
                 swfVersionStr, xiSwfUrlStr, 
                 flashvars, params, attributes);
             // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
@@ -77,14 +77,14 @@
         </div>
         
         <noscript>
-            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="Tetromino">
-                <param name="movie" value="Tetromino.swf" />
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="480" height="480" id="Tetris">
+                <param name="movie" value="Tetris.swf" />
                 <param name="quality" value="high" />
                 <param name="bgcolor" value="#ffffff" />
                 <param name="allowScriptAccess" value="sameDomain" />
                 <param name="allowFullScreen" value="true" />
                 <!--[if !IE]>-->
-                <object type="application/x-shockwave-flash" data="Tetromino.swf" width="100%" height="100%">
+                <object type="application/x-shockwave-flash" data="Tetris.swf" width="480" height="480">
                     <param name="quality" value="high" />
                     <param name="bgcolor" value="#ffffff" />
                     <param name="allowScriptAccess" value="sameDomain" />

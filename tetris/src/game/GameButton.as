@@ -1,12 +1,8 @@
-package gameClasses
-{
+package game{
 	import flash.display.Sprite;
 	
-	public class Button extends Sprite
-	{
-		private var btn:Sprite = new Sprite();
-		public function Button()
-		{
+	public class GameButton extends Sprite{
+		public function GameButton(){
 			super();
 		}
 		public function drawButton(colorFill:uint, radius:Number):void{
